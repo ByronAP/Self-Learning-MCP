@@ -23,11 +23,11 @@
     "self-learning",
     "antigravity"
   ],
-  "author": "Your Name",
+  "author": "Allen Byron Penner",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/self-learning-mcp.git"
+    "url": "https://github.com/ByronAP/self-learning-mcp.git"
   },
   "files": [
     "dist",

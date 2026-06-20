@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This project aims to provide a robu
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/self-learning-mcp.git
+   git clone https://github.com/ByronAP/self-learning-mcp.git
    cd self-learning-mcp
    ```
 
