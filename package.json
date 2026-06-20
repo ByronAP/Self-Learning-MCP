@@ -23,7 +23,16 @@
     "self-learning",
     "antigravity"
   ],
+  "author": "Google DeepMind",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/self-learning-mcp.git"
+  },
+  "files": [
+    "dist",
+    "instructions.md"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
     "better-sqlite3": "^11.8.2",
