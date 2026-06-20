@@ -1,0 +1,41 @@
+{
+  "name": "self-learning-mcp",
+  "version": "0.1.0",
+  "description": "Self-improving memory system for AI agents — Antigravity-native MCP server",
+  "type": "module",
+  "bin": {
+    "self-learning-mcp": "./dist/src/cli.js"
+  },
+  "main": "./dist/src/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/src/server.js",
+    "init": "node dist/src/cli.js init",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "memory",
+    "ai",
+    "agent",
+    "self-learning",
+    "antigravity"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^11.8.2",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
